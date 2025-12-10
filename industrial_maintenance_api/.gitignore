@@ -1,0 +1,14 @@
+# Entorno Virtual
+venv/
+.env
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Base de datos SQLite local (NO debe subirse a producción)
+db.sqlite3
+/media/
+/static/
