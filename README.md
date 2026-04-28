@@ -1,11 +1,11 @@
-# API RESTful para Mantención Industrial - INACAP T13041
+# API RESTful para Mantención Industrial
 
 ## 1. Descripción
-Este proyecto es la Evaluación N°4 de Programación Backend y consiste en el desarrollo de una API RESTful con Django REST Framework para gestionar empresas clientes, equipos, técnicos, planes de mantención y órdenes de trabajo. [cite_start]La autenticación se realiza mediante JWT. [cite: 134]
+Este proyecto consiste en el desarrollo de una API RESTful con Django REST Framework para gestionar empresas clientes, equipos, técnicos, planes de mantención y órdenes de trabajo.La autenticación se realiza mediante JWT.
 
 ## 2. Requisitos y Dependencias
 * Python 3.x
-* [cite_start]Dependencias principales: [cite: 135]
+* Dependencias principales: 
     * `Django`
     * `djangorestframework`
     * `djangorestframework-simplejwt`
@@ -20,18 +20,18 @@ Este proyecto es la Evaluación N°4 de Programación Backend y consiste en el d
     ```bash
     pip install -r requirements.txt # O usar el listado de dependencias
     ```
-3.  **Aplicar migraciones y crear superusuario:** [cite: 136]
+3.  **Aplicar migraciones y crear superusuario:** 
     ```bash
     python manage.py migrate
     python manage.py createsuperuser
     ```
-4.  **Ejecutar el servidor:** [cite: 136]
+4.  **Ejecutar el servidor:** 
     ```bash
     python manage.py runserver
     ```
 
 ## 4. Endpoints de la API
-[cite_start]La API opera bajo la ruta base `/api/`. [cite: 137]
+La API opera bajo la ruta base `/api/`. 
 
 | URL | Método | Descripción | Requiere Autenticación |
 | :--- | :--- | :--- | :--- |
